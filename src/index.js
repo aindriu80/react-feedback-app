@@ -4,7 +4,8 @@ import './index.css'
 import App from './App'
 
 ReactDOM.render(
-  <React.StrictModek>
-    <App />, document.getElementById('root')
-  </React.StrictModek>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 )
