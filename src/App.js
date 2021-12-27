@@ -1,9 +1,9 @@
 import Header from './components/Header'
+
 function App() {
   return (
     <>
-      <Header bgColor="red" textColor="blue" />
-      {/* <Header /> */}
+      <Header />
       <div className="container">
         <h1>React Feedback App</h1>
       </div>
