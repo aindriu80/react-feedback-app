@@ -1,11 +1,6 @@
 {
   "feedback": [
     {
-      "id": 1,
-      "rating": 10,
-      "text": "This is feedback item 1 coming from the back end"
-    },
-    {
       "id": 2,
       "rating": 7,
       "text": "This is feedback item 2 coming from the back end"
@@ -24,6 +19,11 @@
       "text": "this is  a test Friday 31ú",
       "rating": 5,
       "id": 6
+    },
+    {
+      "text": "test the an updated item",
+      "rating": 1,
+      "id": 7
     }
   ]
 }
