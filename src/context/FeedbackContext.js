@@ -5,7 +5,7 @@ import FeedbackData from '../data/FeedbackData'
 const FeedbackContext = createContext()
 
 export const FeedbackProvider = ({ children }) => {
-  const [feedback, setFeedback] = useState([])
+  const [feedback, setFeedback] = useState(FeedbackData)
   const [feedbackEdit, setFeedbackEdit] = useState({
     item: {},
     edit: false,
